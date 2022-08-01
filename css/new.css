@@ -1,0 +1,17 @@
+.brand {
+    position: relative;
+}
+
+@media (max-width: 1440px) {
+    .brand {
+        position: absolute;
+        top: -100px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .brand {
+        position: absolute;
+        top: 25px;
+    }
+}
